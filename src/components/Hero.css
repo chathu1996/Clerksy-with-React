@@ -1,0 +1,12 @@
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    background-color: #163a24;
+}
+.hero-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

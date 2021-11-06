@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #163a24;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 1rem;
+}
+.getstarted-button{
+    background-color: #38762E;
+    border-radius: 5rem;
+    padding: 10px;
+}

@@ -1,0 +1,34 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-container img {
+    width: 60%;
+    
+}
+.grid-text-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.grid-text-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.grid-text{
+    width: 50%;
+    color: #183a24;
+}
+.grid-text h1{
+    font-family: 'Playfair Display';
+    font-size: 3rem;
+}
+.image-container1{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
